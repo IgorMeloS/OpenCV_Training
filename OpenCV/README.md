@@ -4,7 +4,7 @@ OpenCV is mandatory when the subject is computer vision. The most popular free c
 
 The OpenCV folder is composed by others folders, organized in the follow manner:
 
-1. [Basics OpenCV](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/OpenCV/1%20-%20Basics%20OpenC) 
+1. [Basics OpenCV](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/OpenCV/1%20-%20Basics%20OpenC)
 
     This folder contains demonstrations of basic operations with OpenCV, as read image from disk or display it.  The files inside the folder are:
 
@@ -40,15 +40,19 @@ The OpenCV folder is composed by others folders, organized in the follow manner:
         * Blurring with average method
         * Blurring with Gaussian method
         * Blurring with median method
-        * Blurring with bilateral method 
+        * Blurring with bilateral method
     * [threshold](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/1%20-%20Basics%20OpenCV/threshold.ipynb)
       * Covered Skills
         * Simple threshold (binary and inverse)
         * Adaptive threshold (mean and Gaussian)
         * Otsu and Riddler-Calvard method
+    * [gradient_edgedetection](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/1%20-%20Basics%20OpenCV/gradient_edgedetection.ipynb)
+      * Covered Skills
+        * Gradient intensity (Laplacian and Sobel method)
+        * Edge detection (Canny algorithm)
 
 2. [Counting objects](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/2%20-%20Counting%20objects/counting_objects.ipynb)
-    
+
     Simple application to count object in an image using OpenCV.
     - Covered Skills
       - convert images to gray scale
