@@ -50,6 +50,10 @@ The OpenCV folder is composed by others folders, organized in the follow manner:
       * Covered Skills
         * Gradient intensity (Laplacian and Sobel method)
         * Edge detection (Canny algorithm)
+    * [contours](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/1%20-%20Basics%20OpenCV/contours.ipynb)
+      * Covered Skills
+        * Find contours
+        * Draw contours
 
 2. [Counting objects](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/2%20-%20Counting%20objects/counting_objects.ipynb)
 
