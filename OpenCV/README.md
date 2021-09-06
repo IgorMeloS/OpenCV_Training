@@ -67,8 +67,15 @@ The OpenCV folder is composed by others folders, organized in the follow manner:
       - mask
 3. [Deep Learning face-detection with openCV](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/OpenCV)
 
-    Face detection with OpenCV and a pre-trained Deep Neural Network. OpenCV library offers to us an elegant function to load pre-trained neural networks and make predictions. We must to download the weights of the dnn to load with OpenCV. In this project, we make face detection for [some images](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/3%20-%20Deep%20Learning%20face-detection%20with%20openCV/face_detector.ipynb), but it's also possible to make face recognition with your webcam by this [file](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/3%20-%20Deep%20Learning%20face-detection%20with%20openCV/face_detector_video.py).
+    Face detection with OpenCV and pre-trained Deep Neural Network. OpenCV library offers to us an elegant function to load pre-trained neural networks and make predictions. We must to download the weights of the dnn to load with OpenCV. In this project, we make face detection for [some images](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/3%20-%20Deep%20Learning%20face-detection%20with%20openCV/face_detector.ipynb), but it's also possible to make face recognition with your webcam by this [file](https://github.com/IgorMeloS/Computer-Vision-Training/blob/main/OpenCV/3%20-%20Deep%20Learning%20face-detection%20with%20openCV/face_detector_video.py).
     - Covered Skills
       - OpenCV dnn function
-      - Create blobs from an image with dnn function
+      - Create blobs for image transformation with dnn function
       - Make face recognition with OpenCV (drawing rectangles and printing the confidence of the prediction)
+4. [OpenCV Age Detection](https://github.com/IgorMeloS/Computer-Vision-Training/tree/main/OpenCV/4%20-%20OpenCV%20Age%20Detection)
+    Age detection with OpenCV requires two pre-trained models. One for face detection and another for age detection. This project presents face detection for images, and also for video stream.
+    - Coverd Skills
+      - OpenCV dnn function
+      - Create blobs for image transformation
+      - Extraction of Region of Interest (ROI)
+      - Prediction inside of ROI (age detection)
