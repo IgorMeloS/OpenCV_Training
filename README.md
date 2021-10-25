@@ -1,6 +1,8 @@
 # OpenCV
 
-OpenCV is mandatory when the subject is computer vision. The most popular free computer vision library, OpenCV offers to us many applicability to the image preprocessing, transformation and analysis. Use OpenCV can help us to obtain better results, because before apply any model, we must have good data to train. Beyond the data preprocessing and analysis, OpenCV enable us to apply trained models and, build computer vision applications, as we will see in this project. Here, I present some examples how to use OpenCV starting from the basic concepts until deep applications. All examples here come from [PyImageSearch](https://www.pyimagesearch.com/), but with different images, in this way, we can explore more about the OpenCV tools. Let's go on ahead.
+OpenCV is mandatory when the subject is computer vision. The most popular free computer vision library, OpenCV offers to us many applicability to the image preprocessing, transformation and analysis. Use OpenCV can help us to obtain better results, because before apply any model, we must have good data to train. OpenCV also enable us to apply pre-trained models and, build computer vision applications, 
+
+Here, I present some examples how to use OpenCV starting from the basic concepts until deep applications. Most templates examples come from [PyImageSearch](https://www.pyimagesearch.com/) and other sources.  To better understand the templates, I've tried different images and videos, to be confronted with the parameterization of each problem. Let’s go on ahead.
 
 The OpenCV folder is composed by others folders, organized in the follow manner:
 
@@ -87,3 +89,11 @@ The OpenCV folder is composed by others folders, organized in the follow manner:
     
     - [Face Recognition with OpenCV](https://github.com/IgorMeloS/OpenCV_Training/tree/main/OpenCV/5%20-%20Face%20Recognition/Face%20Recognition%20with%20OpenCV)
     - [Face Recognition with dlib and facenet](https://github.com/IgorMeloS/OpenCV_Training/tree/main/OpenCV/5%20-%20Face%20Recognition/Face%20Recognition%20with%20dlib%20and%20facenet)
+
+6. [Object Detection](https://github.com/IgorMeloS/OpenCV_Training/tree/main/OpenCV/6%20-%20Object%20Detection)
+
+    Object detection is fundamental for Computer Vision tasks. For many applications, object detection is the first required step. For example, to count the number of cars on the road, we first detect and then, we use tracking algorithms to obtain the total of vehicles.  We consider three pre-trained models, Faster R-CNN, SSD and YOLO, all of them trained on COCO dataset.
+    
+    - [Faster R-CNN with OpenCV](https://github.com/IgorMeloS/OpenCV_Training/tree/main/OpenCV/6%20-%20Object%20Detection/Fast_RNN%20with%20OpenCV)
+    - [SSD with OpenCV](https://github.com/IgorMeloS/OpenCV_Training/tree/main/OpenCV/6%20-%20Object%20Detection/SSD%20with%20OpenCV)
+    - [YOLOv3 with OpenCV](https://github.com/IgorMeloS/OpenCV_Training/tree/main/OpenCV/6%20-%20Object%20Detection/YOLO%20with%20OpenCV)
